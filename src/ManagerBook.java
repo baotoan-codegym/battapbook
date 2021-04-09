@@ -45,9 +45,9 @@ public static Book books[];
     public Book[] sapxep(){
         Book teamp;
        for (int i=0;i<books.length;i++){
-           for (int j=i+1;j<books.length-i;j++){
+           for (int j=i+1;j<books.length-i-1;j++){
                if (books[i].getPrice()<books[j].getPrice()){
-           teamp = books[i];
+                   teamp = books[i];
                    books[i]=books[j];
                    books[j]=teamp;
 

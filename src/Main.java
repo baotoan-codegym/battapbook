@@ -27,6 +27,7 @@ public class Main {
         System.out.println("so sach co ngon ngu java la"+toan.countBookByLanguage("java"));
         System.out.println("tong tien la"+toan.getSumMoneyBook());
         System.out.println("sach duoi gia monny la"+toan.searchBookByPrice(60000));
+        toan.sapxep();
         toan.display();
     }
 
